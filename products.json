@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Sản phẩm 1",
+    "price": "100.000đ",
+    "desc": "Hộp hoa trang trí móng nhiều màu.",
+    "img": "images/sp1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sản phẩm 2",
+    "price": "200.000đ",
+    "desc": "Bộ phụ kiện móng đa dạng.",
+    "img": "images/sp2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sản phẩm 3",
+    "price": "150.000đ",
+    "desc": "Bảng màu sơn gel thử mẫu.",
+    "img": "images/sp3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sản phẩm 4",
+    "price": "150.000đ",
+    "desc": "Hộp charm thú mini dễ thương.",
+    "img": "images/sp4.jpg"
+  }
+]
