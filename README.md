@@ -37,3 +37,6 @@ flowchart LR
     IDX --> FAQ
   end
 
+<img width="2056" height="1329" alt="Screenshot 2025-09-01 at 11 01 00" src="https://github.com/user-attachments/assets/bc59b0e7-c5e7-4687-9793-0824ce6fe6c0" />
+<img width="2056" height="1329" alt="Screenshot 2025-09-01 at 11 00 32" src="https://github.com/user-attachments/assets/1faa0fb9-d3d7-4daa-834e-eab18cf2a5bd" />
+<img width="2056" height="1329" alt="Screenshot 2025-09-01 at 11 00 05" src="https://github.com/user-attachments/assets/770a5782-4e43-439f-b0e2-fb3b0c74e829" />
