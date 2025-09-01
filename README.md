@@ -18,8 +18,6 @@ A tiny full-stack setup for a storefront landing page (`index.html`) and a groun
 ---
 
 ## 🧱 Architecture
-
-mermaid
 flowchart LR
   U[User Browser] -->|GET /| FE[index.html (Landing)]
   U -->|Click "Chat with us"| CHAT[/chat (FastAPI view)/]
