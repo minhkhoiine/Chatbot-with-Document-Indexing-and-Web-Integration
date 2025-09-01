@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NailPro Supply — Landing</title>
+  <title>PhuongCong Supply — Landing</title>
   <style>
     body{font-family:system-ui,Arial,sans-serif;margin:0;text-align:center}
     header{padding:64px 20px;background:#6C63FF;color:#fff}
@@ -12,14 +12,15 @@
     main{max-width:900px;margin:auto;padding:28px}
     .cta{
       display:inline-block;margin-top:24px;padding:14px 28px;font-size:18px;
-      border:0;border-radius:10px;background:#6C63FF;color:#fff;cursor:pointer
+      border:0;border-radius:10px;background:#6C63FF;color:#fff;cursor:pointer;
+      text-decoration:none
     }
     .cta:hover{filter:brightness(.95)}
   </style>
 </head>
 <body>
   <header>
-    <h1>NailPro Supply</h1>
+    <h1>PhuongCong Supply</h1>
     <p>Uy tín tạo nên thương hiệu</p>
   </header>
 
@@ -27,8 +28,8 @@
     <h2>Hello</h2>
     <p>Click on button to chat with us</p>
 
-    <a class="cta" href="http://127.0.0.1:5000/chat">💬 Chat with us</a>
-
+    <!-- Chỉ cần href="/chat", không hardcode host/port -->
+    <a class="cta" href="/chat">💬 Chat with us</a>
   </main>
 </body>
 </html>
