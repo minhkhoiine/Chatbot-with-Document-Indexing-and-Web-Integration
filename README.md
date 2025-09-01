@@ -19,22 +19,23 @@ A tiny full-stack setup for a storefront landing page (`index.html`) and a groun
 
 ## 🧱 Architecture
 
-```mermaid
+mermaid
 flowchart LR
-  U[User<br/>Browser] -->|GET /| FE[index.html (Landing)]
-  U -->|Click 'Chat with us'| CHAT[/chat (FastAPI view)/]
+  U[User Browser] -->|GET /| FE[index.html (Landing)]
+  U -->|Click "Chat with us"| CHAT[/chat (FastAPI view)/]
 
-  subgraph APP[FastAPI app - client.py (port 5000)]
+  subgraph APP [FastAPI app - client.py (port 5000)]
     CHAT -->|POST /ask (Form)| ASK[Handler /ask]
-    ASK -->|httpx POST| FAQ[(FAQ Service<br/>/query @8000)]
+    ASK -->|httpx POST| FAQ[(FAQ Service /query @8000)]
     ASK -->|OpenAI Responses API| OAI[(OpenAI API)]
-    ASK -->|HTML| RESP[Response Page]
+    ASK --> RESP[Response Page]
   end
 
   FE -->|href "/chat"| CHAT
   RESP -->|Link /| FE
 
-  subgraph FAQS[FAQ Index Service (port 8000)]
+  subgraph FAQS [FAQ Index Service (port 8000)]
     FAQ -->|Retrieve context| IDX[(faq_index / DB / files)]
     IDX --> FAQ
   end
+
