@@ -4,6 +4,7 @@ readme = r"""# PhuongCong Supply — Chatbot + Landing (FastAPI)
 A tiny full-stack setup for a storefront landing page (`index.html`) and a grounded FAQ chatbot (`client.py`) using **FastAPI** and the **OpenAI Responses API**. Retrieval is done via a separate FAQ service (`/query`) that returns context for answers.
 
 > This repo started from the “NailPro/PhuongCong” demo. It’s production-ready enough for a single instance on a VM (EC2/Render/Fly) and easy to extend.
+> http://3.14.88.21:8080
 
 ---
 
